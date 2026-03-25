@@ -1,21 +1,15 @@
-Pasquetta = True
+import math
 
-if Pasquetta:
-    print("spacchiammo tutto")
-else:
-    print("organnizziamo")
+x = 5
 
+print(math.pi) #stampa il valore di pi greco
+print(math.e) #stampa il valore di euler
+result = math.sqrt(x) #calcola la radice quadrata di x
+result = math.ceil(x) #arrotonda per eccesso
+result = math.floor(x) #arrotonda per diffeto 
 
+radius = float(input("inserisci il raggio del cerchio: "))  
 
-#base per costruire un piccolo check campo per login o altro 
-name = input("compila con il tuo nome: ")
+area = math.pi * pow(radius, 2) #calcola l'area del cerchio usando la formula A = πr^2
 
-name = bool(name)
-
-Nome = name
-
-if Nome:
-    print("puoi proccedere")
-else: 
-    print("compila il campo nome")
-
+print(f"L'area del cerchio con raggio {radius} è: {area}")
