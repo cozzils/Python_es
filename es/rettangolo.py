@@ -1,5 +1,4 @@
 #ES 1 rettangolo 
-
 name = input("inserisci il tuo nome: ")
 
 print(f"ciao {name} oggi andiamo a costruire un rettangolo e a calcolare la sua aerea")
