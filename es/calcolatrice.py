@@ -1,3 +1,5 @@
+print("Benvenuto nella calcolatrice che ruba il lavoro a conti")
+
 Num1 = input("inserisci il tuo primo numero: ")
 
 Segno = input("inserisci il se segno che vuoi usare: (+ - * /): ")
