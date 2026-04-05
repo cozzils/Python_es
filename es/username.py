@@ -1,4 +1,4 @@
-import re
+import re # importo la libreria re per utilizzare re.fullmatch(r'^[a-zA-Z_]+$', name)
 
 username = input("inserisci il tuo username: ")
 name = (username)
